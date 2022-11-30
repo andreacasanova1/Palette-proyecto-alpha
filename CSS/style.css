@@ -1,8 +1,38 @@
-body {
+/*generales*/
+
+*{
+  box-sizing: border-box;
+
+}
+
+html,body {
+    height: 100%;  
     margin: 0;
-    font-family: 'Source Sans Pro', sans-serif;
-    color: #1e1e1e;
-    background-color: #e1e1e1;
-    font-weight: 400;
-  }
+    padding: 0;
+}
+   
+  body { 
+  font-family: 'Source Sans Pro', sans-serif;
+  color: #fba92c;
+  background-color: #9e9e9e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}    
+ 
+h2.titulo2 {
+  color:blue;
+ }
+ h1{
+  font-size: 30px;
+ }
+div.colorprincipal  {
+  display: inline-block;
+  
+
+}
+div.colorsecundario {
+  display: inline-block;
+}
+ 
   
