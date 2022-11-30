@@ -26,13 +26,23 @@ h2.titulo2 {
  h1{
   font-size: 30px;
  }
-div.colorprincipal  {
+div.colorprincipal {
   display: inline-block;
+  width: 4cm;
+  height: 4cm;
   
-
+  padding: 4;
 }
+
 div.colorsecundario {
   display: inline-block;
+  width: 3cm;
+  height: 3cm;
+  background-color: rgb(255, 255, 255);
+}
+
+div.colorprincipal .amarillo {
+  background-color: #fba92c;
 }
  
   
