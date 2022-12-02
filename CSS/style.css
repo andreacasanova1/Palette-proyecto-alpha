@@ -100,14 +100,71 @@ html,body {
 .float-element {
   position: relative;
  display: inline-flex;
-
 }
 
 
+ /* botones circulares para mobil y desktop y hover*/
+
+
+.btnpdesktop {
+  position: relative;
+  background-color: #ffa400;
+  border: 1px solid #222;
+  border-radius: 50px;
+  width: 75px;
+  height: 75px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  flex-wrap: nowrap;
+}
   
+.btnpdesktop:hover {
+  background-color: #ffffff;
+  color: #141414;
+  width: 160px;
+  height: 75px;
 
 
+}
+.btnpmobil {
+    position: relative;
+    background-color: #ffa400;
+    border: 1px solid #222;
+    border-radius: 40px;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    text-transform: uppercase;
+    justify-content: center;
+    flex-wrap: nowrap;
+}
+.btnpmobil:hover {
+  background-color: #9e9e9e;
+  color: #141414;
+}
+ 
 
+.btn {
+  position: relative;
+  background-color: #ffa400;
+  border: 1px solid #222;
+  border-radius: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  justify-content: center;
+  flex-wrap: nowrap;
+  
+ }
+ .btn:hover {
+  width: 200px;
+  height: 75px;
+ }
 
 
  
