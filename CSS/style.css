@@ -2,6 +2,7 @@
 
 *{
   box-sizing: border-box;
+
 }
 
 html,body {
@@ -206,4 +207,31 @@ color: #141414;
 .btn2mobil:hover {
 background-color: #565656;
 color: #141414;
+}
+
+.texto {
+ position: absolute;
+ display: inline-block;
+ width: 600px;
+ height: auto;
+ text-align: justify;
+
+}
+.footer {
+ position: relative;
+ display:inline-flex;
+ width: auto;
+ height: auto;
+ text-align: center;
+ align-self: flex-end;
+ align-items: flex-end;
+
+}
+ p {
+  font-size: 21px;
+  color: #000000;
+ }
+
+ a:link {
+  color: blue;
 }
