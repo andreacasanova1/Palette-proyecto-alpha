@@ -260,6 +260,14 @@ a:hover {
   flex-wrap: nowrap;
 }
 
+
+  .container {
+    align-content: flex-end;
+    order: 3;
+  }
+
+
+
 input {
     font-size: 18px;
     font-family: 'Courier New', Courier, monospace;
@@ -268,8 +276,22 @@ input {
     border-radius: 40em;
     border-color: #141414;
     
-    width: 200px;
+    width: 150px;
     height: 40px;
+}
+/*esta clase para hacer más largo el input del email no
+funciona*/
+input [type="email"] {
+  font-size: 18px;
+  font-family: 'Courier New', Courier, monospace;
+  text-align: center;
+  margin-top: 2em;
+  border-radius: 40em;
+  border-color: #141414;
+  
+  width: 200px;
+  height: 40px;
+
 }
 label {
   font-size: 18px;
